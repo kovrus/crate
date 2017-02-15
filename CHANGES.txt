@@ -5,6 +5,8 @@ Changes for Crate
 Unreleased
 ==========
 
+ - Fix: Index columns based on string arrays are correctly populated with values.
+
  - Fixed global aggregations on JOINs with 3 or more tables.
 
  - Fixed an issue that could cause UPDATE or DELETE bulk operations to get
